@@ -1,0 +1,78 @@
+version: v1.5.0
+ignore: {}
+patch:
+  'npm:hawk:20160119':
+    - spm-client > request > hawk:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > request > hawk:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > request > hawk:
+        patched: '2016-07-24T17:22:55.031Z'
+  'npm:minimatch:20160620':
+    - spm-webpack-server > spm-webpack > spm-client > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - istanbul-instrumenter-loader > istanbul > fileset > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > vinyl-fs > glob-watcher > gaze > globule > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > vinyl-fs > glob-stream > glob > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > vinyl-fs > glob-watcher > gaze > globule > glob > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > rimraf > glob > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > babel-core > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > babel-loader > babel-core > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > father > glob > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > father > glob > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > vinyl-fs > glob-stream > minimatch:
+        patched: '2016-07-24T17:22:55.031Z'
+  'npm:ms:20151024':
+    - spm-webpack > spm-client > debug > ms:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > debug > ms:
+        patched: '2016-07-24T17:22:55.031Z'
+    - father > exists-case > debug > ms:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > father > debug > ms:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > father > debug > ms:
+        patched: '2016-07-24T17:22:55.031Z'
+  'npm:request:20160119':
+    - spm-webpack > spm-client > request:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > request:
+        patched: '2016-07-24T17:22:55.031Z'
+  'npm:semver:20150403':
+    - spm-webpack > spm-client > semver:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > semver:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > father > semver:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > father > semver:
+        patched: '2016-07-24T17:22:55.031Z'
+  'npm:tar:20151103':
+    - spm-webpack > spm-client > tar:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > tar:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack > spm-client > gulp-untar2 > tar:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > spm-client > gulp-untar2 > tar:
+        patched: '2016-07-24T17:22:55.031Z'
+  'npm:uglify-js:20151024':
+    - spm-webpack-server > spm-webpack > handlebars > uglify-js:
+        patched: '2016-07-24T17:22:55.031Z'
+    - spm-webpack-server > spm-webpack > webpack > uglify-js:
+        patched: '2016-07-24T17:22:55.031Z'
