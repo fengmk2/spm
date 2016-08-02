@@ -66,7 +66,8 @@
     "uniq": "~1.0.1",
     "vinyl-fs": "~0.3.13",
     "whoami": "~0.0.3",
-    "win-spawn": "~2.0.0"
+    "win-spawn": "~2.0.0",
+    "snyk": "^1.17.5"
   },
   "devDependencies": {
     "coveralls": "~2.11.2",
@@ -86,6 +87,9 @@
   },
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
-    "test": "make test"
-  }
+    "test": "make test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
