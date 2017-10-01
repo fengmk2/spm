@@ -58,7 +58,7 @@
     "spm-client": "~0.4.0",
     "spm-log": "~0.1.1",
     "spm-webpack": "~0.5.0",
-    "spm-webpack-server": "~0.5.0",
+    "spm-webpack-server": "~0.8.3",
     "spmrc": "~1.2.0",
     "tar": "~1.0.3",
     "test-console": "~0.7.1",
@@ -66,7 +66,8 @@
     "uniq": "~1.0.1",
     "vinyl-fs": "~0.3.13",
     "whoami": "~0.0.3",
-    "win-spawn": "~2.0.0"
+    "win-spawn": "~2.0.0",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "coveralls": "~2.11.2",
@@ -86,6 +87,9 @@
   },
   "scripts": {
     "postinstall": "node scripts/postinstall.js",
-    "test": "make test"
-  }
+    "test": "make test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true
 }
